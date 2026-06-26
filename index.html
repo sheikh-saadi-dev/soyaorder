@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOY PROTEIN GOLD | SGL - সুস্থ জীবনের জন্য রিভার্সেল ডায়েট</title>
+    
+    <!-- Meta Tags for SEO & FB Ads -->
+    <meta name="description" content="SGL সয়া প্রোটিন গোল্ড একটি বিশ্বসেরা পুষ্টি উপাদান সমৃদ্ধ প্রোটিন ড্রিংক মিক্স। বাড়তী ওজন, উচ্চ রক্তচাপ ও কলেস্টেরল কমিয়ে স্বাভাবিকতায় ফিরতে সাহায্য করে।">
+    <meta property="og:title" content="SOY PROTEIN GOLD | SGL - Prevention is better than cure">
+    <meta property="og:description" content="৯ প্রকার এমিনো এসিড সমৃদ্ধ প্রোটিন, 7 প্রকার ভিটামিন ও মিনারেল সমৃদ্ধ মিরাকল ফুড। এখনই অর্ডার করুন!">
+    <meta property="og:image" content="https://i.ibb.co.com/8L545S50/P7f-QOUk-BMQm1-KG2jo-F3-Wqfck-Uokj3mj-Be6o-Qnzrq.jpg">
+    <meta property="og:type" content="product">
+    
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Embedded Internal CSS -->
+    <style>
+        :root {
+            --primary-color: #0284c7;
+            --primary-hover: #0369a1;
+            --secondary-color: #16a34a;
+            --secondary-hover: #15803d;
+            --dark-color: #0f172a;
+            --light-bg: #f8fafc;
+            --text-color: #334155;
+            --border-color: #e2e8f0;
+            --font-main: 'Hind Siliguri', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            color: var(--text-color);
+            background-color: #ffffff;
+            line-height: 1.6;
+            padding-bottom: 70px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            width: 100%;
+        }
+        .btn-primary { background-color: var(--primary-color); color: #fff; }
+        .btn-primary:hover { background-color: var(--primary-hover); }
+        .btn-success { background-color: var(--secondary-color); color: #fff; }
+        .btn-success:hover { background-color: var(--secondary-hover); }
+        .btn-lg { padding: 15px 30px; font-size: 1.2rem; }
+        .btn-sm { padding: 12px 20px; font-size: 1rem; }
+
+        .btn-flash {
+            animation: pulse-animation 2s infinite;
+        }
+        @keyframes pulse-animation {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(2, 132, 199, 0.7); }
+            70% { transform: scale(1.03); box-shadow: 0 0 0 12px rgba(2, 132, 199, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(2, 132, 199, 0); }
+        }
+
+        .sticky-order-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+            z-index: 999;
+            display: block;
+        }
+
+        .announcement-bar {
+            background-color: var(--dark-color);
+            color: #fff;
+            text-align: center;
+            padding: 8px 10px;
+            font-size: 0.95rem;
+        }
+
+        .hero-section {
+            padding: 30px 0;
+            background-color: var(--light-bg);
+        }
+        .hero-image-wrapper {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .product-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .discount-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: #e11d48;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 700;
+            z-index: 10;
+        }
+        .product-title {
+            font-size: 1.8rem;
+            color: var(--dark-color);
+            margin: 15px 0 10px 0;
+            line-height: 1.3;
+        }
+        .stars { color: #f59e0b; font-size: 0.95rem; }
+        .stars span { color: #64748b; margin-left: 5px; }
+        .price-tag {
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .current-price { font-size: 2rem; font-weight: 700; color: var(--primary-color); }
+        .old-price { font-size: 1.3rem; text-decoration: line-through; color: #94a3b8; }
+        .hero-desc { color: #475569; margin-bottom: 20px; white-space: pre-line; }
+
+        .quote-box {
+            background: #fff;
+            border-left: 4px solid var(--primary-color);
+            padding: 12px;
+            margin: 15px 0;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #475569;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .alert-box {
+            background: #fff1f2;
+            border: 1px solid #fecdd3;
+            border-left: 4px solid #e11d48;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            color: #9f1239;
+        }
+        .alert-box h4 { font-weight: 700; margin-bottom: 5px; }
+
+        .benefits-section, .reviews-section, .faq-section, .order-section {
+            padding: 50px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.7rem;
+            margin-bottom: 35px;
+            position: relative;
+            color: var(--dark-color);
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin: 8px auto 0 auto;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .benefit-card {
+            text-align: center;
+            padding: 25px;
+            background: var(--light-bg);
+            border-radius: 10px;
+            transition: transform 0.3s;
+            border: 1px solid var(--border-color);
+        }
+        .benefit-card:hover { transform: translateY(-5px); }
+        .benefit-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        .benefit-card h3 { margin-bottom: 10px; font-size: 1.3rem; color: var(--dark-color); }
+
+        .reviews-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+        .review-card {
+            padding: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            background: #fff;
+        }
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .review-stars { color: #f59e0b; }
+
+        .faq-wrapper { max-width: 700px; margin: 0 auto; }
+        .faq-item {
+            border: 1px solid var(--border-color);
+            margin-bottom: 10px;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .faq-question {
+            background-color: var(--light-bg);
+            padding: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+            color: var(--dark-color);
+        }
+        .faq-question:hover { background-color: #f1f5f9; }
+        .faq-answer {
+            padding: 15px;
+            display: none;
+            background: #fff;
+            border-top: 1px solid var(--border-color);
+            white-space: pre-line;
+        }
+        .faq-item.active .faq-answer { display: block; }
+        .faq-item.active .faq-question i { transform: rotate(180deg); }
+
+        .order-grid { display: grid; grid-template-columns: 1fr; gap: 30px; }
+        .order-form-container {
+            background: #fff;
+            border: 2px solid var(--primary-color);
+            padding: 25px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .form-title { font-size: 1.4rem; margin-bottom: 20px; text-align: center; color: var(--primary-color); }
+        .form-group { margin-bottom: 18px; }
+        .form-group label { display: block; margin-bottom: 6px; font-weight: 500; }
+        .required { color: red; }
+        .form-group input[type="text"],
+        .form-group input[type="tel"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-family: var(--font-main);
+            font-size: 1rem;
+            outline: none;
+        }
+        .form-group input:focus, .form-group textarea:focus { border-color: var(--primary-color); }
+        .radio-group { display: flex; flex-direction: column; gap: 10px; margin-top: 5px; }
+        .radio-label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+
+        .order-summary-container {
+            background: var(--light-bg);
+            padding: 25px 20px;
+            border-radius: 12px;
+            border: 1px dashed #94a3b8;
+        }
+        .summary-title { font-size: 1.3rem; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; color: var(--dark-color); }
+        .summary-row { display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 1.05rem; }
+        .total-row { font-weight: 700; color: var(--primary-color); font-size: 1.3rem; }
+        .trust-badges { text-align: center; margin-top: 20px; font-size: 0.9rem; color: #64748b; }
+
+        .hidden { display: none !important; }
+        .success-box {
+            text-align: center;
+            padding: 30px 10px;
+        }
+        .success-icon { font-size: 4rem; color: var(--secondary-color); margin-bottom: 15px; }
+        .spinner {
+            width: 24px;
+            height: 24px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .main-footer { text-align: center; padding: 25px; background: var(--dark-color); color: #94a3b8; font-size: 0.95rem; }
+
+        @media (min-width: 768px) {
+            body { padding-bottom: 0; }
+            .sticky-order-bar { display: none; }
+            .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+            .product-title { font-size: 2.3rem; }
+            .benefits-grid { grid-template-columns: repeat(3, 1fr); }
+            .reviews-grid { grid-template-columns: 1fr 1fr; }
+            .order-grid { grid-template-columns: 1.6fr 1.1fr; align-items: start; }
+            .section-title { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Order Bar for Mobile Conversion -->
+    <div class="sticky-order-bar">
+        <a href="#order-form-section" class="btn btn-flash btn-sm btn-primary">
+            <i class="fas fa-shopping-cart"></i> এখনই অর্ডার করুন
+        </a>
+    </div>
+
+    <!-- Header Announcement -->
+    <header class="announcement-bar">
+        <p><i class="fas fa-heartbeat"></i> SGL "Prevention is better than cure" - ক্যাশ অন ডেলিভারি সুবিধা সারা বাংলাদেশে!</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-image-wrapper">
+                    <span id="dynamic-discount" class="discount-badge">বিশেষ ছাড়</span>
+                    <img id="dynamic-img" src="" alt="Soy Protein Gold" class="product-img">
+                </div>
+                <div class="hero-content">
+                    <h1 id="dynamic-title" class="product-title">Loading Product Title...</h1>
+                    
+                    <div class="rating-share">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(৪.৮/৫ রেটিং)</span>
+                        </div>
+                    </div>
+
+                    <div class="price-tag">
+                        <span class="current-price">৳ <span id="promo-price">0</span></span>
+                        <span id="dynamic-old-price" class="old-price">৳ 0</span>
+                    </div>
+
+                    <p id="dynamic-desc" class="hero-desc">Loading description...</p>
+                    
+                    <div id="dynamic-quote" class="quote-box"></div>
+                    
+                    <div class="cta-group">
+                        <a href="#order-form-section" class="btn btn-primary btn-lg btn-flash">
+                            <i class="fas fa-shopping-bag"></i> অর্ডার করতে এখানে ক্লিক করুন
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">সয়া প্রোটিন গোল্ড-এর প্রধান পুষ্টিগুণ ও উপকারিতা</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-dna"></i></div>
+                    <h3>৯ প্রকার নিত্য প্রয়োজনীয় অ্যামিনো এসিড</h3>
+                    <p>এতে রয়েছে শরীরের জন্য অত্যন্ত প্রয়োজনীয় ৯ প্রকার এসেনশিয়াল অ্যামিনো এসিড সমৃদ্ধ প্রিমিয়াম কোয়ালিটি প্রোটিন।</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-capsules"></i></div>
+                    <h3>৭ প্রকার ভিটামিন ও মিনারেল</h3>
+                    <p>দেহের দৈনন্দিন পুষ্টির ঘাটতি পূরণ করতে এবং রোগ প্রতিরোধ ক্ষমতা শক্তিশালী করতে ভিটামিন ও মিনারেল সমৃদ্ধ।</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-compress-arrows-alt"></i></div>
+                    <h3>রিভার্সেল ডায়েট ফর্মুলা</h3>
+                    <p>সকর খাদ্য পুষ্টির অভাবে কোষ সুসংগঠিত না হলে মেদভুঁড়ি দেখা দেয়। এটি পরিবর্তিত খাদ্য হিসেবে সেবনে মেদ কমাতে অত্যন্ত সহায়ক।</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-heart"></i></div>
+                    <h3>রক্তচাপ ও কলেস্টেরল নিয়ন্ত্রণ</h3>
+                    <p>এই মিরাকল ফুড নিয়মিত সেবনে বাড়তী ওজন, উচ্চ রক্তচাপ এবং উচ্চ কলেস্টেরলের মাত্রা ক্রমান্বয়ে স্বাভাবিক অবস্থায় ফিরে আসে।</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>ব্লাড সুগার ও ডায়াবেটিস</h3>
+                    <p>সুষম প্রোটিন ও কমপ্লেক্স কার্বহাইড্রেটের সমন্বয় শরীরের কোষকে সুস্থ রেখে উচ্চ ব্লাড সুগার নিয়ন্ত্রণে কার্যকর ভূমিকা রাখে।</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>ফারমেন্টেড প্রসেসড সয়াবিন</h3>
+                    <p>সারা বিশ্বে জনপ্রিয় ও মিরাকল ফুড সয়াবিনকে ফারমেন্টেড পদ্ধতিতে প্রসেসডপূর্বক ও বিশ্বসেরা উপাদানের সমন্বয়ে তৈরি।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">গ্রাহকদের বাস্তব অভিজ্ঞতা</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <strong>মাহমুদুল হাসান (উত্তরা, ঢাকা)</strong>
+                        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    <p>"আমার মেদভুঁড়ি এবং উচ্চ রক্তচাপের সমস্যা ছিল। ডাক্তারের পরামর্শে ডায়েট পরিবর্তনের পাশাপাশি SGL সয়া প্রোটিন নেওয়া শুরু করি। ১ মাস পর ওজন এবং প্রেশার দুটাই নিয়ন্ত্রণে এসেছে।"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <strong>আফসানা বেগম (খুলনা)</strong>
+                        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    <p>"কলেস্টেরলের মাত্রা অনেক বেড়ে গিয়েছিল। সকালের নাস্তার পরিবর্তে এটি ফল দিয়ে ব্লেন্ড করে খাচ্ছি, শরীর এখন অনেক হালকা এবং এনার্জেটিক লাগে।"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">সচরাচর জিজ্ঞাসিত প্রশ্নাবলী (FAQ)</h2>
+            <div class="faq-wrapper">
+                <div class="faq-item">
+                    <div class="faq-question">এটি সেবনের নিয়ম কী? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">২৫ গ্রাম বা চা চামচের ৪ চামচ পাউডার ২৫০ মিলি ঠান্ডা পানি এবং বিভিন্ন প্রকার পাকা ফল বা ফলের রস/লেবু/কমলার রস এর সহিত ব্লেন্ডিং পূর্বক প্রস্তুত শরবত পরিবর্তিত খাদ্য রূপে পরামর্শ অনুযায়ী দিনে ১ বা ২ বার সেব্য।</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">এর নিট ওজন কতটুকু? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">প্রতিটি জারের নিট ওজন ৪০০ গ্রাম (400gm)।</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">কারা এটি চিকিৎসকের পরামর্শ ছাড়া সেবন করতে পারবেন না? <i class="fas fa-chevron-down"></i></div>
+                    <div class="faq-answer">সতর্কতা: কিডনী, স্কীন এলার্জি ও থাইরয়েড সমস্যা যুক্ত রোগীদের ক্ষেত্রে বিশেষজ্ঞ চিকিৎসকের পরামর্শ ছাড়া সয়া প্রোটিন সেবন করা নিষেধ।</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order-form-section" class="order-section">
+        <div class="container">
+            
+            <!-- Safety Alert Box -->
+            <div class="alert-box">
+                <h4>⚠️ বিশেষ সতর্কতা:</h4>
+                <p>কিডনী, স্কীন এলার্জি এবং থাইরয়েড সমস্যা যুক্ত রোগীদের ক্ষেত্রে পরামর্শ ছাড়া সয়া প্রোটিন সেবন সম্পূর্ণরূপে নিষেধ।</p>
+            </div>
+
+            <div class="order-grid">
+                <!-- Order Form -->
+                <div class="order-form-container">
+                    <h2 class="form-title"><i class="fas fa-shopping-cart"></i> অর্ডার ফর্মটি পূরণ করুন</h2>
+                    <form id="purchase-form">
+                        <div class="form-group">
+                            <label for="name">আপনার নাম <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="যেমন: মোঃ আব্দুল্লাহ" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">মোবাইল নম্বর <span class="required">*</span></label>
+                            <input type="tel" id="mobile" name="mobile" placeholder="যেমন: 01XXXXXXXXX" pattern="[0-9]{11}" title="সঠিক ১১ ডিজিটের মোবাইল নম্বর দিন" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">সম্পূর্ণ ঠিকানা <span class="required">*</span></label>
+                            <textarea id="address" name="address" placeholder="গ্রাম/রোড নম্বর, থানা, জেলা" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>ডেলিভারি এলাকা <span class="required">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="delivery" value="inside" checked> ঢাকার ভেতরে (৳৬০)
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="delivery" value="outside"> ঢাকার বাইরে (৳১০০)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="quantity">পরিমাণ (Quantity)</label>
+                            <select id="quantity" name="quantity">
+                                <option value="1">১টি জার (৪০০ গ্রাম)</option>
+                                <option value="2">২টি জার (ফ্রি ডেলিভারি)</option>
+                                <option value="3">৩টি জার (विशेष অফার)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn btn-success btn-lg btn-block">
+                           <span id="btn-text"><i class="fas fa-check-circle"></i> অর্ডার কনফার্ম করুন</span>
+                           <span id="btn-spinner" class="spinner hidden"></span>
+                        </button>
+                    </form>
+                    
+                    <div id="success-message" class="success-box hidden">
+                        <div class="success-icon"><i class="fas fa-gift"></i></div>
+                        <h3>আপনার অর্ডারটি সফলভাবে গৃহীত হয়েছে!</h3>
+                        <p>আমাদের একজন প্রতিনিধি খুব দ্রুত আপনার মোবাইল নম্বরে কল করে অর্ডারটি কনফার্ম করবেন। আমাদের সাথে থাকার জন্য ধন্যবাদ।</p>
+                    </div>
+                </div>
+
+                <!-- Summary Side Card -->
+                <div class="order-summary-container">
+                    <h3 class="summary-title">অর্ডার সামারি</h3>
+                    <div class="summary-row">
+                        <span>প্রোডাক্টের মূল্য:</span>
+                        <span>৳ <span id="subtotal">0</span></span>
+                    </div>
+                    <div class="summary-row">
+                        <span>ডেলিভারি চার্জ:</span>
+                        <span>৳ <span id="shipping-cost">60</span></span>
+                    </div>
+                    <hr>
+                    <div class="summary-row total-row">
+                        <span>সর্বমোট মূল্য:</span>
+                        <span>৳ <span id="grand-total">0</span></span>
+                    </div>
+                    <div class="trust-badges">
+                        <p><i class="fas fa-shield-alt text-success"></i> ১০০% জেনুইন ও প্রিমিয়াম হেলথ ফুড</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 SOY PROTEIN GOLD (SGL). সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    <!-- Embedded Internal JavaScript -->
+    <script>
+        // =========================================================================
+        // 🛠️ PRODUCT CONFIGURATION FIELD
+        // =========================================================================
+        const PRODUCT_CONFIG = {
+            title: "SGL SOY PROTEIN GOLD - ৯ প্রকার এসেনশিয়াল অ্যামিনো এসিড সমৃদ্ধ মিরাকল প্রোটিন ড্রিংক মিক্স (400gm)",
+            imageUrl: "https://i.ibb.co.com/8L545S50/P7f-QOUk-BMQm1-KG2jo-F3-Wqfck-Uokj3mj-Be6o-Qnzrq.jpg",
+            price: 1250,         // আপনার আসল বিক্রয়মূল্য এখানে দিন
+            oldPrice: 1850,      // আগের রেগুলার প্রাইস
+            discountText: "বিশেষ অফার", 
+            description: `সাড়া বিশ্বে জনপ্রিয় ও মিরাকল ফুড সয়াবিনকে ফারমেন্টেড পদ্ধতিতে প্রসেসডপূর্বক এবং আরও কতিপয় বিশ্বসেরা পুষ্টি উপাদান সমন্বয়ে এই প্রিমিয়াম প্রোটিন ড্রিংক মিক্স প্রস্তুত করা হয়েছে। এতে রয়েছে ৯ প্রকার নিত্য প্রয়োজনীয় অ্যামিনো এসিড সমৃদ্ধ প্রোটিন, ৭ প্রকার ভিটামিন ও মিনারেল এবং উৎকৃষ্ট মানের ফাইবার সমৃদ্ধ খাদ্য পুষ্টি উপাদান।\n\nবাড়তি ওজন, উচ্চ রক্তচাপ ও উচ্চ কলেস্টেরলের মাত্রা ক্রমান্বয়ে কমিয়ে স্বাভাবিকতায় ফিরিয়ে আনতে এটি চমৎকার কাজ করে, যে কারণে একে রিভার্সেল ডায়েট বলা হয়।`,
+            quote: `💡 "Prevention is better than cure" — SGL Soy Protein Gold.`
+        };
+
+        // 🚀 আপনার জেনারেট করা সচল নতুন গুগল অ্যাপস স্ক্রিপ্ট ওয়েব অ্যাপ ইউআরএল
+        const GOOGLE_SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz7sacae8mGIKp7dkHwPCG4TEgXSYCCN7SR-XaVNIQ06mOvOxXlbv2EEJ9FhPn7M1GB/exec"; 
+        // =========================================================================
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // --- ডাইনামিক ডাটা সেট করা ---
+            document.getElementById("dynamic-title").innerText = PRODUCT_CONFIG.title;
+            document.getElementById("dynamic-img").src = PRODUCT_CONFIG.imageUrl;
+            document.getElementById("promo-price").innerText = PRODUCT_CONFIG.price;
+            document.getElementById("dynamic-old-price").innerText = "৳ " + PRODUCT_CONFIG.oldPrice;
+            document.getElementById("dynamic-discount").innerText = PRODUCT_CONFIG.discountText;
+            document.getElementById("dynamic-desc").innerText = PRODUCT_CONFIG.description;
+            document.getElementById("dynamic-quote").innerText = PRODUCT_CONFIG.quote;
+
+            // --- UI Element Selectors ---
+            const form = document.getElementById("purchase-form");
+            const quantitySelect = document.getElementById("quantity");
+            const deliveryRadios = document.getElementsByName("delivery");
+            
+            const subtotalEl = document.getElementById("subtotal");
+            const shippingCostEl = document.getElementById("shipping-cost");
+            const grandTotalEl = document.getElementById("grand-total");
+            
+            const submitBtn = document.getElementById("submit-btn");
+            const btnText = document.getElementById("btn-text");
+            const btnSpinner = document.getElementById("btn-spinner");
+            const successMessage = document.getElementById("success-message");
+
+            // --- Price Calculation Logic ---
+            function updateCalculations() {
+                const qty = parseInt(quantitySelect.value) || 1;
+                let subtotal = qty * PRODUCT_CONFIG.price;
+                
+                // ২ টি বা ৩ টি নিলে এক্সট্রা অফার ক্যালকুলেশন
+                if(qty === 2) {
+                    subtotal = subtotal - 150; 
+                } else if(qty === 3) {
+                    subtotal = subtotal - 300; 
+                }
+
+                let shippingCost = 60; 
+                for (const radio of deliveryRadios) {
+                    if (radio.checked && radio.value === "outside") {
+                        shippingCost = 100; 
+                        break;
+                    }
+                }
+
+                const grandTotal = subtotal + shippingCost;
+
+                subtotalEl.innerText = subtotal;
+                shippingCostEl.innerText = shippingCost;
+                grandTotalEl.innerText = grandTotal;
+            }
+
+            // প্রথমবার পেজ লোড হলে ক্যালকুলেশন রান করা
+            updateCalculations();
+
+            // ইভেন্ট হ্যান্ডলার যুক্ত করা
+            quantitySelect.addEventListener("change", updateCalculations);
+            deliveryRadios.forEach(radio => radio.addEventListener("change", updateCalculations));
+
+            // --- FAQ Accordion Features ---
+            const faqQuestions = document.querySelectorAll(".faq-question");
+            faqQuestions.forEach(question => {
+                question.addEventListener("click", () => {
+                    const parent = question.parentElement;
+                    parent.classList.toggle("active");
+                });
+            });
+
+            // --- Form Submission & API Integration ---
+            let isSubmitting = false; 
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                if (isSubmitting) return; 
+                
+                const phone = document.getElementById("mobile").value.trim();
+                if(phone.length !== 11) {
+                    alert("অনুগ্রহ করে একটি সঠিক ১১ ডিজিটের মোবাইল নম্বর প্রদান করুন।");
+                    return;
+                }
+
+                isSubmitting = true;
+                
+                submitBtn.disabled = true;
+                btnText.classList.add("hidden");
+                btnSpinner.classList.remove("hidden");
+
+                const formData = new FormData(form);
+                const dataPayload = {
+                    timestamp: new Date().toLocaleString("en-US", { timeZone: "Asia/Dhaka" }),
+                    name: formData.get("name"),
+                    mobile: formData.get("mobile"),
+                    address: formData.get("address"),
+                    location: formData.get("delivery") === "inside" ? "Inside Dhaka" : "Outside Dhaka",
+                    quantity: formData.get("quantity") + " (Soy Protein)",
+                    productPrice: subtotalEl.innerText,
+                    deliveryCharge: shippingCostEl.innerText,
+                    totalAmount: grandTotalEl.innerText,
+                    status: "Pending"
+                };
+
+                fetch(GOOGLE_SHEET_WEB_APP_URL, {
+                    method: "POST",
+                    mode: "no-cors", 
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(dataPayload)
+                })
+                .then(() => {
+                    form.reset();
+                    form.classList.add("hidden");
+                    successMessage.classList.remove("hidden");
+                    window.scrollTo({ top: document.getElementById("order-form-section").offsetTop - 40, behavior: 'smooth' });
+                })
+                .catch(error => {
+                    console.error("Error submitting order:", error);
+                    alert("দুঃখিত, কোনো একটি টেকনিক্যাল সমস্যার কারণে অর্ডারটি সম্পন্ন হয়নি। আবার চেষ্টা করুন।");
+                })
+                .finally(() => {
+                    isSubmitting = false;
+                    submitBtn.disabled = false;
+                    btnText.classList.remove("hidden");
+                    btnSpinner.classList.add("hidden");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
